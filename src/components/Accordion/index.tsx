@@ -1,8 +1,11 @@
-import { useState, type ReactNode } from "react";
+import { type ReactNode } from "react";
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 import StepHeader from "../StepHeader";
 import ProductCard from "../ProductCard";
 import useProducts from "../../hooks/useProducts";
+import { useAppDispatch } from "../../hooks/useAppDispatch";
+import { useAppSelector } from "../../hooks/useAppSelector";
+import { setCurrentStep } from "../../features/bundle/bundleSlice";
 
 interface AccordionProps {
   icon: ReactNode;
@@ -19,8 +22,13 @@ const Accordion = ({
   step,
   children,
 }: AccordionProps) => {
-  const [isOpen, setIsOpen] = useState(step === 1);
+  const dispatch = useAppDispatch();
 
+  const currentStep = useAppSelector(
+    (state) => state.bundle.currentStep
+  );
+
+  const isOpen = currentStep === step;
   const { products, loading } = useProducts();
 
   return (
@@ -29,8 +37,7 @@ const Accordion = ({
 
       {/* Header */}
       <div
-        onClick={() => setIsOpen((prev) => !prev)}
-        className="my-[6px] flex h-[60px] w-full cursor-pointer items-center justify-between border-y border-[#1F1F1F] px-[15px] py-[20px]"
+        onClick={() => dispatch(setCurrentStep(step))} className="my-[6px] flex h-[60px] w-full cursor-pointer items-center justify-between border-y border-[#1F1F1F] px-[15px] py-[20px]"
       >
         {/* Left */}
         <div className="flex items-center gap-[8px]">

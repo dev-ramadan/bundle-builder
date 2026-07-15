@@ -1,4 +1,5 @@
 import Accordion from "../components/Accordion";
+import ReviewPanel from "../components/ReviewPanel";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Accordion text={"Choose your sensors"} icon={<img src="sensors.png" />} step={3} selectNum={2} />
       <Accordion text={"Add extra protection"} icon={<img src="protection.png" />} step={4} selectNum={1} />
 
+      <ReviewPanel/>
     </main>
 
   );
