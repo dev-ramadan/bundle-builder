@@ -1,239 +1,116 @@
 [
   {
-    "id": "base-keychron-q1",
-    "name": "Keychron Q1 HE Base Kit",
-    "description": "Premium 75% layout wireless magnetic hall-effect keyboard barebone. Full CNC machined aluminum body, gasket mount design, and hot-swappable.",
-    "category": "base",
-    "price": 190.00,
-    "rating": 4.9,
-    "image": "keychron-q1",
+    "id": "1",
+    "name": "Wyze Cam v4",
+    "description": "The clearest Wyze Cam ever made.",
+    "category": "camera",
+    "price": 27.98,
+    "compareAtPrice": 35.98,
+    "badge": "Save 22%",
+    "learnMore": "#",
+    "image": "src/assets/cam/Cam_V4.png",
     "variants": [
       {
-        "name": "color",
-        "label": "Case Color",
-        "options": [
-          {"value": "carbon-black", "label": "Carbon Black", "meta": "#1b1c20"},
-          {"value": "shell-white", "label": "Shell White", "meta": "#eef0f4"},
-          {"value": "deep-blue", "label": "Deep Blue", "meta": "#213653"}
-        ]
+        "id": "white",
+        "name": "White",
+        "image": "src/assets/cam/colors/cam_v4_white.png",
+        "quantity": 0
       },
       {
-        "name": "layout",
-        "label": "Layout",
-        "options": [
-          {"value": "ansi", "label": "ANSI (US)"},
-          {"value": "iso", "label": "ISO (UK)"}
-        ]
-      }
-    ],
-    "reviews": [
-      {"user": "Alex M.", "rating": 5, "comment": "Outstanding build quality! The hall-effect switches are a game-changer.", "date": "2026-06-12"},
-      {"user": "Sara T.", "rating": 5, "comment": "Heavy, solid aluminum body. Wireless connection is ultra-stable.", "date": "2026-07-01"}
-    ]
-  },
-  {
-    "id": "base-wooting-60he",
-    "name": "Wooting 60HE+ Module",
-    "description": "The ultimate 60% analog gaming keyboard base. Powered by hall-effect Lekker switches, offering customizable actuation and rapid trigger.",
-    "category": "base",
-    "price": 140.00,
-    "rating": 4.8,
-    "image": "wooting-60he",
-    "variants": [
-      {
-        "name": "color",
-        "label": "Case Material",
-        "options": [
-          {"value": "translucent-black", "label": "Translucent Black", "meta": "#2c2d30"},
-          {"value": "solid-black", "label": "Solid Obsidian Black", "meta": "#0f0f10"}
-        ]
-      }
-    ],
-    "reviews": [
-      {"user": "Tyler K.", "rating": 5, "comment": "Rapid trigger is pure cheat code in Valorant. Highly recommend!", "date": "2026-05-18"},
-      {"user": "Emily R.", "rating": 4, "comment": "Software is web-based and excellent. Box sounds hollow though, needs foam.", "date": "2026-06-29"}
-    ]
-  },
-  {
-    "id": "base-gmmk-pro",
-    "name": "GMMK Pro 75% Barebone",
-    "description": "An ultra-premium gasket-mounted mechanical keyboard base. Features a signature side lightbar, rotary encoder dial, and 5-pin hotswap.",
-    "category": "base",
-    "price": 170.00,
-    "rating": 4.7,
-    "image": "gmmk-pro",
-    "variants": [
-      {
-        "name": "color",
-        "label": "Case Color",
-        "options": [
-          {"value": "slate-black", "label": "Slate Black", "meta": "#25262a"},
-          {"value": "white-ice", "label": "White Ice", "meta": "#e3e5eb"},
-          {"value": "forest-green", "label": "Forest Green", "meta": "#1b3322"}
-        ]
+        "id": "grey",
+        "name": "Grey",
+        "image": "src/assets/cam/colors/cam_v4_grey.png",
+        "quantity": 0
       },
       {
-        "name": "knob",
-        "label": "Rotary Dial Color",
-        "options": [
-          {"value": "gold", "label": "Gold Electroplated", "meta": "#d4af37"},
-          {"value": "silver", "label": "Silver Matte", "meta": "#c0c0c0"},
-          {"value": "black", "label": "Black Anodized", "meta": "#000000"}
-        ]
+        "id": "black",
+        "name": "Black",
+        "image": "src/assets/cam/colors/cam_v4_black.png",
+        "quantity": 0
       }
-    ],
-    "reviews": [
-      {"user": "David P.", "rating": 4, "comment": "Very nice knob control and side-glow, but the stabilizers needed relubing.", "date": "2026-04-10"},
-      {"user": "Clara V.", "rating": 5, "comment": "Looks premium on my desk. Forest green is gorgeous.", "date": "2026-07-02"}
     ]
   },
   {
-    "id": "switches-gateron-jade",
-    "name": "Gateron Magnetic Jade Switches",
-    "description": "Magnetic linear switches with a unique short-key-travel sound. Very smooth, pre-lubed from factory, with excellent RGB diffusion.",
-    "category": "switches",
-    "price": 45.00,
-    "rating": 4.9,
-    "image": "gateron-jade",
+    "id": "2",
+    "name": "Wyze Cam Pan v3",
+    "description": "360° pan and 180° tilt security camera.",
+    "category": "camera",
+    "price": 34.98,
+    "compareAtPrice": 39.98,
+    "badge": "Save 13%",
+    "learnMore": "#",
+    "image": "src/assets/cam/Cam_V3.png",
     "variants": [
       {
-        "name": "pack",
-        "label": "Pack Size",
-        "options": [
-          {"value": "70", "label": "70 Switches (60%/65%)"},
-          {"value": "90", "label": "90 Switches (75%/TKL)", "priceModifier": 12.00},
-          {"value": "110", "label": "110 Switches (Full Size)", "priceModifier": 22.00}
-        ]
+        "id": "white",
+        "name": "White",
+        "image": "src/assets/cam/colors/cam_v3_white.png",
+        "quantity": 0
+      },
+      {
+        "id": "black",
+        "name": "Black",
+        "image": "src/assets/cam/colors/cam_v3_black.png",
+        "quantity": 0
       }
-    ],
-    "reviews": [
-      {"user": "Kaleb S.", "rating": 5, "comment": "The clack sound is incredible. No scratchiness at all.", "date": "2026-06-25"}
     ]
   },
   {
-    "id": "switches-cherry-clear",
-    "name": "Cherry MX Black Clear-Top (Nixie)",
-    "description": "Premium linear switches paying homage to the legendary 'Nixie' switches. Heavy actuation, deep sounding, and extremely durable.",
-    "category": "switches",
-    "price": 38.00,
-    "rating": 4.6,
-    "image": "cherry-nixie",
+    "id": "3",
+    "name": "Wyze Cam Floodlight v2",
+    "description": "2K floodlight camera with a 160° wide-angle view for your garage.",
+    "category": "camera",
+    "price": 69.98,
+    "compareAtPrice": 89.98,
+    "badge": "Save 22%",
+    "learnMore": "#",
+    "image": "src/assets/cam/Cam_V2.png",
     "variants": [
       {
-        "name": "pack",
-        "label": "Pack Size",
-        "options": [
-          {"value": "70", "label": "70 Switches (60%/65%)"},
-          {"value": "90", "label": "90 Switches (75%/TKL)", "priceModifier": 10.00},
-          {"value": "110", "label": "110 Switches (Full Size)", "priceModifier": 18.00}
-        ]
+        "id": "white",
+        "name": "White",
+        "image": "src/assets/cam/colors/cam_v2_white.png",
+        "quantity": 0
+      },
+      {
+        "id": "black",
+        "name": "Black",
+        "image": "src/assets/cam/colors/cam_v2_black.png",
+        "quantity": 0
       }
-    ],
-    "reviews": [
-      {"user": "Marcus G.", "rating": 5, "comment": "Super smooth when lubed with 205g0. Feels like butter.", "date": "2026-03-15"}
     ]
   },
   {
-    "id": "switches-novelkeys-cream",
-    "name": "NovelKeys Cream Switches",
-    "description": "Linear switches made of self-lubricating POM material. They get smoother and sound deeper the more you type on them.",
-    "category": "switches",
-    "price": 48.00,
-    "rating": 4.5,
-    "image": "nk-cream",
+    "id": "4",
+    "name": "Wyze Duo Cam Doorbell",
+    "description": "Two cameras. Two views. Double the porch protection.",
+    "category": "camera",
+    "price": 69.98,
+    "learnMore": "#",
+    "image": "src/assets/cam/Cam_Doorbell.png",
+    "variants": []
+  },
+  {
+    "id": "5",
+    "name": "Wyze Battery Cam Pro",
+    "description": "Protect anywhere. See everything in 2.5K HDR. No power outlet or electrician needed.",
+    "category": "camera",
+    "price": 89.98,
+    "learnMore": "#",
+    "image": "src/assets/cam/Cam_Pro.png",
     "variants": [
       {
-        "name": "pack",
-        "label": "Pack Size",
-        "options": [
-          {"value": "70", "label": "70 Switches"},
-          {"value": "90", "label": "90 Switches", "priceModifier": 14.00},
-          {"value": "110", "label": "110 Switches", "priceModifier": 25.00}
-        ]
-      }
-    ],
-    "reviews": [
-      {"user": "Linus H.", "rating": 4, "comment": "Require a break-in period, but once broken in, they feel magnificent.", "date": "2026-02-28"}
-    ]
-  },
-  {
-    "id": "keycaps-gmk-botanical",
-    "name": "GMK Botanical keycaps (PBT Double-shot)",
-    "description": "Beautiful forest-inspired keycaps. Crisp legends, premium matte PBT material, and rich green-white-gray colors.",
-    "category": "keycaps",
-    "price": 115.00,
-    "rating": 4.9,
-    "image": "gmk-botanical",
-    "variants": [
+        "id": "white",
+        "name": "White",
+        "image": "src/assets/cam/colors/cam_pro_white.png",
+        "quantity": 0
+      },
       {
-        "name": "profile",
-        "label": "Keycap Profile",
-        "options": [
-          {"value": "cherry", "label": "Cherry Profile (Sleek)"},
-          {"value": "oem", "label": "OEM Profile (Standard)"}
-        ]
+        "id": "black",
+        "name": "Black",
+        "image": "src/assets/cam/colors/cam_pro_black.png",
+        "quantity": 0
       }
-    ],
-    "reviews": [
-      {"user": "Sophia F.", "rating": 5, "comment": "Color matching is perfect. No warping on spacebar.", "date": "2026-07-09"}
-    ]
-  },
-  {
-    "id": "keycaps-cyberpunk",
-    "name": "Drop MT3 Cyberpunk Keycap Set",
-    "description": "High-profile sculpted ABS keycaps featuring glowing neon yellow, pink, and purple legends on deep purple-gray keycaps.",
-    "category": "keycaps",
-    "price": 85.00,
-    "rating": 4.7,
-    "image": "mt3-cyberpunk",
-    "variants": [
-      {
-        "name": "layout",
-        "label": "Layout Compatibility",
-        "options": [
-          {"value": "ansi-only", "label": "Base Kit (ANSI)"},
-          {"value": "international", "label": "International Kit (ISO/De/Fr)", "priceModifier": 15.00}
-        ]
-      }
-    ],
-    "reviews": [
-      {"user": "Ray J.", "rating": 5, "comment": "MT3 profile is so comfortable! The deep dish cradles your fingers.", "date": "2026-05-30"}
-    ]
-  },
-  {
-    "id": "accessories-cable",
-    "name": "Custom Coiled Aviator Cable",
-    "description": "Double-sleeved paracord cable wrapped in techflex with a detachable heavy-duty GX16 4-pin aviator connector.",
-    "category": "accessories",
-    "price": 32.00,
-    "rating": 4.8,
-    "image": "aviator-cable",
-    "variants": [
-      {
-        "name": "color",
-        "label": "Cable Color",
-        "options": [
-          {"value": "purple-neon", "label": "Laser Neon Purple", "meta": "#c026d3"},
-          {"value": "mint-green", "label": "Minty Matcha Green", "meta": "#a7f3d0"},
-          {"value": "stealth-black", "label": "Stealth Black", "meta": "#1f2937"}
-        ]
-      }
-    ],
-    "reviews": [
-      {"user": "Derrick L.", "rating": 5, "comment": "Matches my setup perfectly. The coils are perfectly tight.", "date": "2026-06-19"}
-    ]
-  },
-  {
-    "id": "accessories-lube",
-    "name": "Premium Keyboard Tuning & Lube Kit",
-    "description": "Complete kit containing Krytox 205g0 grease, Krytox 105 oil, switch opener, brush, keycap puller, and stem holder.",
-    "category": "accessories",
-    "price": 22.00,
-    "rating": 4.6,
-    "image": "lube-kit",
-    "variants": [],
-    "reviews": [
-      {"user": "Nate B.", "rating": 4, "comment": "Has everything you need to tune switches and stabilizers. High quality oil.", "date": "2026-07-05"}
     ]
   }
 ]
