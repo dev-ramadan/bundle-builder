@@ -216,4 +216,4 @@ products.json → ProductCard → dispatch(action) → bundleSlice → selectors
 
 ---
 
-<p align="center">Made with ❤️ using React & TypeScript</p>
+<p align="center">Made with ❤️ Ramadan Mohamed</p>
