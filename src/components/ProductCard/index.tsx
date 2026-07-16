@@ -13,28 +13,24 @@ interface ProductCardProps {
   product: Product;
 }
 
-const ProductCard = ({
-  product,
-}: ProductCardProps) => {
+const ProductCard = ({ product, }: ProductCardProps) => {
 
   const selectedVariant = useAppSelector(
     (state) =>
       getSelectedVariant(state, product.id)
   );
-
   const currentVariant =
-  selectedVariant ??
-  product.variants[0]?.id ??
-  "default";
+    selectedVariant ??
+    product.variants[0]?.id ??
+    "default";
   return (
-    <article className="rounded-2xl border border-[#DADADA] bg-white p-4">
+    <article className="flex h-full w-full flex-col rounded-xl bg-white p-4">      {product.badge && (
+      <ProductBadge text={product.badge} />
+    )}
 
-      {product.badge && (
-        <ProductBadge text={product.badge} />
-      )}
-
-      <div className="mt-4">
+      <div className="mt-3">
         <ProductImage
+
           src={product.image}
           alt={product.name}
         />
@@ -47,16 +43,16 @@ const ProductCard = ({
         />
       </div>
 
-      {product.variants.length > 0 && (
-        <div className="mt-5">
+      <div className="mt-5 min-h-[40px]">
+        {product.variants.length > 0 && (
           <VariantSelector
             productId={product.id}
             variants={product.variants}
           />
-        </div>
-      )}
+        )}
+      </div>
 
-      <div className="mt-6 flex items-end justify-between">
+      <div className="mt-auto pt-6 flex items-end justify-between">
         <QuantityStepper
           productId={product.id}
           variantId={currentVariant}
@@ -67,6 +63,8 @@ const ProductCard = ({
           compareAtPrice={product.compareAtPrice}
         />
       </div>
+
+
 
     </article>
   );

@@ -17,8 +17,9 @@ const QuantityStepper = ({
     getVariantQuantity(state, productId, variantId)
   );
   return (
-    <div className="flex items-center gap-3 rounded-full border border-[#DADADA] px-3 py-2">
+    <div className="flex items-center gap-3 px-3 py-2">
       <button
+        className="cursor-pointer text-[#575757] font-semibold p-2.5 w-5 h-5 border-2 flex items-center justify-center border-[#CED6DE] rounded-[4px]"
         disabled={quantity === 0}
         onClick={() =>
           dispatch(
@@ -32,9 +33,10 @@ const QuantityStepper = ({
         -
       </button>
 
-      <span>{quantity}</span>
+      <span className="font-bold">{quantity}</span>
 
       <button
+        className="cursor-pointer text-[#575757] font-semibold w-5 h-5 border-2 flex items-center justify-center p-2.5 border-[#CED6DE] rounded-[4px]"
         onClick={() =>
           dispatch(
             increaseQuantity({

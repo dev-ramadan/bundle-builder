@@ -15,15 +15,27 @@ const ReviewItem = ({ item }: Props) => {
           src={item.image}
           alt={item.name}
           className="h-14 w-14 rounded-lg border object-contain"
+          loading="lazy"
+
         />
 
         <div>
-          <h4 className="font-medium text-[#1F1F1F]">
-            {item.name}
+
+          <h4 className="font-medium text-[#1F1F1F] text-[20px]">
+            {item.name.includes("Unlimited") ? (
+              <>
+                {item.name.replace("Unlimited", "")}
+                <span className="font-semibold text-[#4E2FD2]">
+                  Unlimited
+                </span>
+              </>
+            ) : (
+              item.name
+            )}
           </h4>
 
           {item.variantName && (
-            <p className="text-sm text-gray-500">
+            <p className="text-[10px] text-gray-500">
               {item.variantName}
             </p>
           )}

@@ -1,6 +1,6 @@
 const ReviewHeader = () => {
   return (
-    <header className="space-y-2">
+    <header className="space-y-2 lg:w-fit">
       <span className="text-[10px] uppercase tracking-[1.6px] text-[#5E6470]">
         Review
       </span>

@@ -79,9 +79,13 @@ const bundleSlice = createSlice({
         product.quantities[variantId]--;
       }
     },
+    clearBundle: (state) => {
+      state.currentStep = 1;
+      state.selections = {};
+    },
   },
 });
 
-export const { setCurrentStep, increaseQuantity, selectVariant , decreaseQuantity } = bundleSlice.actions;
+export const { setCurrentStep, increaseQuantity, selectVariant, decreaseQuantity ,clearBundle} = bundleSlice.actions;
 
 export default bundleSlice.reducer;

@@ -10,16 +10,9 @@ const ProductInfo = ({ name, description }: ProductInfoProps) => {
         {name}
       </h3>
 
-      <p className="text-sm leading-6 text-[#666]">
-        {description}
+      <p className="mt-2 min-h-[48px] text-sm leading-5 text-[#5F6470]">
+        {description} <span className="text-sm text-[#0000EE] underline">Lern More</span>
       </p>
-
-      <button
-        type="button"
-        className="text-sm font-semibold text-[#4E2FD2] hover:underline"
-      >
-        Learn More
-      </button>
     </div>
   );
 };
