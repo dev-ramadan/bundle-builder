@@ -37,7 +37,7 @@ const ReviewFooter = () => {
   };
 
   return (
-    <footer className="mt-auto flex flex-col gap-6 xl:w-[370px] xl:ml-auto">
+    <footer className="flex flex-col gap-6 xl:w-[370px] xl:ml-auto">
 
       {/* Top */}
       <div className="flex items-start gap-4">

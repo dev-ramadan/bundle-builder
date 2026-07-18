@@ -55,6 +55,15 @@ const Accordion = ({
     }
   };
 
+  const reviewBtn = () => {
+    if (window.innerWidth < 1024) {
+      window.scrollBy({
+        top: 500,
+        behavior: "smooth"
+      })
+    }
+  }
+
   return (
     <section className="bg-[#EDF4FF] rounded-[10px] p-4">
       <StepHeader step={step} totalSteps={4} />
@@ -126,7 +135,8 @@ const Accordion = ({
                   </button>
                 ) : (
                   <button
-                    className="rounded-full bg-[#4E2FD2] px-6 py-3 text-sm font-medium text-white hover:bg-[#3E24BA]"
+                    onClick={reviewBtn}
+                    className="rounded-sm border-2 border-[#4E2FD2] text-[#4E2FD2] cursor-pointer px-6 py-3 text-lg font-medium transition"
                   >
                     Review System
                   </button>
